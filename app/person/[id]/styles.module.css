@@ -1,0 +1,26 @@
+.container {
+	color: black;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	text-align: left;
+}
+.container h3 {
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 100%;
+}
+.container h4 {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 100%;
+}
+.container img {
+	max-width: 50%;
+}
+.assets {
+	color: black;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
