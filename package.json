@@ -18,8 +18,9 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
-		"deploy": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
-		"start": "node .next/standalone/server.js"
+		"start": "next start",
+		"build:prd": "next build && cp -r .next/static .next/standalone/.next/ && cp -r public .next/standalone/",
+		"start:prd": "node .next/standalone/server.js"
 	},
 	"dependencies": {
 		"@headlessui/react": "^2.1.0",
