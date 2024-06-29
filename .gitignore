@@ -78,6 +78,9 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.env.*
+.env-*
+!.env.aws
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -128,3 +131,10 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+**/.DS_Store
+package-lock.json
+public/sitemap-0.xml
+public/service-worker.js
+public/workbox-*.js
+zod
